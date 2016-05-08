@@ -1,0 +1,21 @@
+{
+    "name": "guilhermegeek/pi-cli",
+    "description": "CLI management tool for Pi applications",
+    "type": "hacklang",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme",
+            "email": "email@guilhermecardoso.pt"
+        }
+    ],
+    "autoload": {
+        "psr-4": {      
+            "Pi\\": "src/Pi"
+        }
+    },
+    "require": {
+        "guilhermegeek/communia": "dev-dev",
+        "guilhermegeek/ken": "dev-dev"
+    }
+}
